@@ -3,7 +3,7 @@
   export default class ChatController extends Component
   {
       render(){
-          const {user,logout}= this.props
+          const {user,logout}= this.props;
 
           return(
               <div>
