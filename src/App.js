@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return (
       App
-        <Layout title="Chat Application" />
+       
     );
   }
 }

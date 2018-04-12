@@ -31,11 +31,11 @@ export default class Layout extends Component{
         socket.emit(USER_CONNECTED);
     }
 
-    logout =()=>{
-        const {socket} = this.state
-        socket.emit(LOGOUT)
-        this.setState({user:null});
-    }
+    // logout =()=>{
+    //     const {socket} = this.state
+    //     socket.emit(LOGOUT)
+    //     this.setState({user:null});
+    // }
 
     render(){
         const {title} = this.props
