@@ -1,8 +1,11 @@
 import React, {Component} from 'react';
 import io from 'socket.io-client'
 import {USER_CONNECTED} from '../Events.js'
+//import App from '/App' 
 
-const socketUrl ="http//localhost:30002/"
+//import registerServiceWorker from './registerServiceWorker';
+
+const socketUrl ="http//localhost:3000/"
 
 export default class Layout extends Component{
 
@@ -39,10 +42,13 @@ export default class Layout extends Component{
 
     render(){
         const {title} = this.props
-        const{socket, user } = this.state
+     //   const{socket, user } = this.state
+
+         
 
         return(
-            <div classname="container">
+            <div className="container">
+            <h2>Chat Application</h2>
                 {title}
             </div>
         );
